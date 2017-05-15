@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1SimpleFactory", "ConsoleApp1\1SimpleFactory.csproj", "{9EE8F02F-716E-4D41-A6DC-474CE4105E7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "SimpleFactory\SimpleFactory.csproj", "{9EE8F02F-716E-4D41-A6DC-474CE4105E7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2Factory", "ConsoleApp2\2Factory.csproj", "{4CBA830D-0C9A-41D5-A145-15FAE7B032A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{4CBA830D-0C9A-41D5-A145-15FAE7B032A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Adapter", "ConsoleApp3\3Adapter.csproj", "{5B850310-9E79-4919-8BF9-C3D547AFBA68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{5B850310-9E79-4919-8BF9-C3D547AFBA68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
