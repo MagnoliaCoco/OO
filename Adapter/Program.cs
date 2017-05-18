@@ -1,25 +1,42 @@
 ﻿using System;
+using System.IO;
+using Microsoft.Extensions.Configuration;
+using System.Reflection;
 
 namespace ConsoleApp3
 {
     class Program
     {
 
+        public static IConfigurationRoot Configuration { get; set; }
+
         static void Main(string[] args)
         {
-            SO operation = new OAdapter();
+
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json");
+
+            Configuration = builder.Build();
+
+
+            string adapterType = Configuration["adapter"];
+
+            SO operation =  null;
+            operation = (SO)Assembly.Load(new AssemblyName("ConsoleApp3")).CreateInstance(adapterType);
 
             int[] scores = { 84, 76, 50, 69, 90, 91, 88, 96 };
             int[] result;
             int score;
 
-            Console.WriteLine("result");
+            Console.WriteLine("result:");
             result = operation.Sort(scores);
 
             foreach (int i in result)
             {
                 Console.WriteLine(i);
             }
+
 
             Console.WriteLine();
             score = operation.Search(result, 90);
