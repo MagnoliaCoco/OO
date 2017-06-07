@@ -4,3 +4,4 @@
 ### 3. Adapter
 ### 4. Composite
 ### 5. Interpreter
+### 6. Observer

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Comp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter.csproj", "{A866DDFA-7D0F-4213-8426-CDED3CF0884A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{8697DEA4-4F01-479D-8BCE-D8BF52A93CC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{A866DDFA-7D0F-4213-8426-CDED3CF0884A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A866DDFA-7D0F-4213-8426-CDED3CF0884A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A866DDFA-7D0F-4213-8426-CDED3CF0884A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8697DEA4-4F01-479D-8BCE-D8BF52A93CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8697DEA4-4F01-479D-8BCE-D8BF52A93CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8697DEA4-4F01-479D-8BCE-D8BF52A93CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8697DEA4-4F01-479D-8BCE-D8BF52A93CC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
