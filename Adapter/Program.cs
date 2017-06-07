@@ -3,7 +3,7 @@ using System.IO;
 using Microsoft.Extensions.Configuration;
 using System.Reflection;
 
-namespace ConsoleApp3
+namespace Adapter
 {
     class Program
     {
