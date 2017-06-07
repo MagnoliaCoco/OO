@@ -22,9 +22,9 @@ namespace ConsoleApp3
 
             string adapterType = Configuration["adapter"];
 
-            SO operation =  null;
-            operation = (SO)Assembly.Load(new AssemblyName("ConsoleApp3")).CreateInstance(adapterType);
+            //operation = (SO)Assembly.Load(new AssemblyName("ConsoleApp3")).CreateInstance(adapterType);
 
+            SO operation = new OAdapter();
             int[] scores = { 84, 76, 50, 69, 90, 91, 88, 96 };
             int[] result;
             int score;
